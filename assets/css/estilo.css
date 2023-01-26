@@ -36,13 +36,16 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 1600px;
-    margin: 0 auto;
+    
     padding-top: 18px;
 }
 .section-header-1{
     display: flex;
     justify-content: space-between;
+    max-width: 1600px;
+    margin-left: 74px;
+    margin-right: 66px;
+    margin: 0 auto;
 }
 .div-esquerda-header1{
     width: 315px;
@@ -171,14 +174,18 @@ body{
 }
 .section-header-2{
     background: #C00D0D;
-    height: 99px;
-    max-width: 1600px;
+    margin-top: 15px;
+    width: 100%;  
+}
+.section-header2-principal{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
     padding-left: 70px;
-    
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 99px;
 }
 .pesquisa-menu-logo{
     display: flex;
@@ -355,6 +362,7 @@ body{
 }
 nav{
     max-width: 1600px;
+    margin: 0 auto;
 }
 .ul-header{
     display: flex;
@@ -386,7 +394,6 @@ nav{
     color: #C00D0D;
 }
 main{
-    max-width: 1600px;
     margin-top: 33px;
     margin-bottom: 50px;
    
@@ -396,10 +403,10 @@ main{
     max-width: 1460px;
     height: 406px;
     border-radius: 15px;
-    padding-left: 60px;
     position: relative;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 0 auto;
+    padding-left: 70px;
+
 }
 .conteudo-futebol{
     position: absolute;
@@ -441,10 +448,8 @@ main{
     color: #ffffff;
 }
 .section-main2{
-    margin-top: 39px;
     max-width: 1460px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 39px auto;
 
 }
 .div-noticia-principal-main2{
@@ -554,7 +559,6 @@ main{
     grid-area: politica2;
 }
 .section-main3{
-    margin-top: 36px;
     display: grid;
     grid-template-columns: repeat(4, 338px);
     grid-column-gap: 36px;
@@ -562,8 +566,8 @@ main{
     grid-row-gap: 76px;
     border-bottom: 2px solid #cccccc;
     height: 610px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 36px auto;
+    width: 1460px;
 }
 .div-img-main3{
     width: 338px;
@@ -617,7 +621,7 @@ main{
     grid-row: 2 / -1;
 }
 .section-main4{
-    margin-top: 70px;
+    max-width: 1460px;
     display: grid;
     grid-template-columns: 977px 433px;
     grid-template-rows: repeat(2, 303px);
@@ -625,8 +629,7 @@ main{
     grid-column-gap: 50px;
     border-bottom: 2px solid #cccccc;
     height: 748px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 70px auto;
 }
 .article-esquerda-main4{
     grid-column: 1 / 2;
@@ -720,14 +723,13 @@ main{
     margin-top: 22px;
 }
 .section-main5{
-    padding-top: 77px;
+    max-width: 1460px;
     display: grid;
     grid-template-columns: 485px 485px 440px;
     grid-gap: 25px;
     grid-template-rows: 287px 287px;
     position: relative;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 77px auto;
 }
 .h2-publicidade{
     position: absolute;
@@ -806,10 +808,15 @@ main{
 }
 .section-main6{
     margin-top: 76px;
-    max-width: 1600px;
+    max-width: 100%;
     height: 535px;
     padding-top: 45px;
     background: #181717;
+}
+.section-main6-principal{
+    max-width: 1460px;
+    margin: 0 auto;
+
 }
 .h2-especiais{
     background: red;
@@ -821,7 +828,6 @@ main{
     text-transform: uppercase;
     padding-top: 7px;
     padding-left: 15px;
-    margin-left: 70px;
    
 }
 .section-noticias-main6{
@@ -830,7 +836,6 @@ main{
     grid-template-columns: repeat(3, 470px);
     grid-gap: 25px;
     margin-top: 52px;
-    margin-left: 70px;
     position: relative;
    
 }
@@ -896,9 +901,7 @@ main{
 }
 .section-main7{
     max-width: 1460px;
-    margin-left: 70px;
-    margin-top: 63px;
-    margin-right: 70px;
+    margin: 63px auto;
     display: grid;
     grid-template-columns: repeat(3, 470px);
     grid-gap: 25px;
@@ -996,9 +999,7 @@ main{
 }
 .section-main8{
     max-width: 1460px;
-    margin-top: 42px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 42px auto;
     display: grid;
     grid-template-columns: 490px 340px 570px;
     grid-gap: 30px;
@@ -1130,9 +1131,7 @@ main{
 }
 .section-main9{
     max-width: 1431px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 45px;
+    margin: 45px auto;
 
 }
 .h2-colunistas{
@@ -1205,9 +1204,7 @@ main{
 }
 .section-main10{
     max-width: 1460px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 85px;
+    margin: 85px auto;
     border-bottom: 2px solid #cccccc;
     height: 253px;
 }
@@ -1286,18 +1283,13 @@ main{
 .section-main11{
     max-width: 1460px;
     height: 160px;
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-top: 61px;
+    margin: 61px auto;
     display: grid;
     grid-template-columns: repeat(4, 338px);
     grid-gap: 36px;
-   
 }
 .section-main12{
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-top: 50px;
+    margin: 50px auto;
     max-width: 1460px;
     display: flex;
     flex-direction: column;
@@ -1378,21 +1370,18 @@ main{
     
 }
 .section-main13{
-    margin-top: 70px;
+    max-width: 1460px;
     display: grid;
     grid-template-columns: repeat(4, 338px);
     grid-column-gap: 36px;
     grid-template-rows: 342px 158px;
     grid-row-gap: 76px;
     height: 610px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: 70px auto;
 }
 .section-main14{
     max-width: 1460px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 87px;
+    margin: 87px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1420,29 +1409,23 @@ main{
    
 }
 
-
-
-
-
-
-
-
 footer{
-   max-width: 1600px;
+   max-width: 100%;
+   background: #171717;
 }
 .section-principal-footer{
     color: #ffffff;
     display: grid;
     grid-template-columns: 900px 492px;
     padding-top: 68px;
-    background: #171717;
+    max-width: 1460px;
+    margin: 0 auto;
     position: relative;
 }
 .seção-esquerda-footer{
     display: grid;
     grid-template-columns: 105px 148px 118px 85px;
     grid-gap: 120px;
-    margin-left: 70px;
     height: 674px;
   
 }
